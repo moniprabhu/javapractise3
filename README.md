@@ -1,4 +1,5 @@
-javapractise3
+#javapractise3
+
 1.Create a class called StudentMarks, which prompts user for the number of students, reads it
 from the keyboard, and saves it in an int variable called numOfStudents. It then prompts user for the
 grades of each of the students and saves them in an int array called stuGrades. Your program shall
