@@ -1,3 +1,5 @@
+//Write a program to find out if a series of 7 digits are consecutive numbers. To make this easier,
+//assume the digits are a string and use split()
 package com.stackroute.pe3;
 import java.util.*;
 
@@ -16,6 +18,7 @@ public class ConsecutiveOrNonConsecutive {
             for (int i = 0; i < array.length; i++) {
                 arr[i] = Integer.parseInt(array[i]);
             }
+            //checking the consecutive and non-consecutive numbers
             boolean checking=true,checking1=true;
             for (int i = 0; i < arr.length-1 ; i++) {
                 if ((arr[i + 1] - arr[i]) == 1){

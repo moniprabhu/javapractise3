@@ -1,3 +1,6 @@
+//Write a program to create a ChessBoard pattern with the help of multidimensional array, where
+//WWrepresents white color and BB represents Black color.
+
 package com.stackroute.pe3;
 
 public class CheckPattern {
